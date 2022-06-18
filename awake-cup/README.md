@@ -46,7 +46,7 @@ dotnet run
 
 1. Sau khi cài đặt môi trường phát triển. Clone source từ git với
 ```
-git clone https://github.com/datnt908/awake-cup.git
+git clone https://github.com/nguyenhailong305/front-end-awake-up-shop
 ```
 
 2. Sau khi clone thì cài đặt các package bằng yarn hoặc npm
