@@ -18,7 +18,7 @@
 
 1. Sau khi cài đặt môi trường phát triển. Clone source từ git với
 ```
-git clone https://github.com/datnt908/awake-cup.git
+git clone https://github.com/nguyenhailong305/front-end-awake-up-shop
 ```
 
 3.  Để chạy được aspnetcore
@@ -60,14 +60,3 @@ yarn install
 yarn start
 ```
 
-# Quy trình làm việc với source code
-
-1. Sau khi nhận được requirement đã đặc tả, tiến hành thiết kế nhằm giải quyết requirement được giao.
-2. Sau khi hoàn chỉnh và chốt bản thiết kế: Developer thực hiện develop theo công việc được phân công trên branch `dev`;
-3. Các Developer phải tạo 1 nhánh mới ở local từ nhành `dev`, và thực hiện code trên đó. Sau khi hoàn thành thì tiến hành merge vào nhánh `dev` chính
-5. Một requirement hoàn chỉnh sẽ được mang sang branch `master` để public trên server.
-
-***Một số lưu ý:***
-* Mỗi một commit phải là commit có khả năng build và run được (không được phép commit lỗi khiến cho cả project không thể build/run)
-* Nội dung commit phải nêu lên được công việc thực hiện trong commit đó
-* Mỗi buổi phải commit lên công việc của mỗi người trong buổi đó

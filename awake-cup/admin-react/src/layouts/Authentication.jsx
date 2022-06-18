@@ -27,7 +27,7 @@ class Authentication extends Component {
   handleSignInClick = () => {
     const requestBody = {
       username: this.state.username,
-      sha1Pass: this.state.password,
+      sha1Pass: hashToSHA1(this.state.password),
     };
     window
       .AccountAPIsService_Authenticate(requestBody)
